@@ -34,6 +34,7 @@ s3_region_change[resource_type] = num {
 
 OPA commands
 
+```
 1. terraform init
 2. terraform plan --out tfplan.binary
 3. terraform show -json tfplan.binary > tfplan.json
