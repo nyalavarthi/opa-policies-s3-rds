@@ -46,8 +46,11 @@ OPA commands
 6. opa eval -f pretty --explain=notes  --data rds-validate.rego --input tfplan.json "authorized = data.terraform.analysis.authz; violations = data.terraform.analysis.violation"
 ```
 Example result from command # 6
+
+```
 +------------+---------------------------+
 | authorized |        violations         |
 +------------+---------------------------+
 | false      | ["missing required tags"] |
 +------------+---------------------------+
+```
