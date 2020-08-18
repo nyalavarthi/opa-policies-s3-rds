@@ -1,4 +1,4 @@
-<h2> Caller module example repository - Master branch </h2>
+<h2> Caller module example repository</h2>
 
 This repository contains TF scripts of caller module for the provision of a simple S3 bucket. 
 
@@ -54,3 +54,7 @@ Example result from command # 6
 | false      | ["missing required tags"] |
 +------------+---------------------------+
 ```
+
+
+Refer to this article more detailed explanation and for more AWS solutions . 
+http://i-cloudconsulting.com/open-policy-agent-opa-terraform-example/
